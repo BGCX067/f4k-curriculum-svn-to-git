@@ -1,0 +1,58 @@
+#labels Welcome,Information,ApacheCocoon
+#Hello, and welcome.
+
+= Introduction =
+
+This project will start as a subproject of cocoon 2.1.11.
+
+
+= Details =
+
+WE HAVE NOT UPLOADED anything yet, but here is some advance information.
+------------------------------------------------------------------------
+
+In order to try out the project, you need to be running
+apache cocoon, version 2.1.11, on localhost (your own computer).
+
+So first you need to download Tomcat and Cocoon 2.1.11 and install them.
+I'll try to put a screencast about this onto 'ShowMeDo' I think.
+
+
+We have Cocoon running under Tomcat 6.0 on port 80, and Apache itself
+running under port 8777. However, you may prefer to have Tomcat
+running on port 8080, which is the default. 
+
+( For later; Please report any instances where these
+port numbers make the system fail--it is not our intention 
+ever to hard-code them into the links or re-directs. )
+
+The project directory, learningActivities, containing the sitemap and all 
+sub-directories should be dropped into your ...Tomcat 6.0/webapps/cocoon/   directory.
+
+You should then be able to access it from your Browser at:
+
+http://localhost/cocoon/LearningActivities/
+
+or, if Tomcat is running on port 8080, at;
+
+
+http://localhost:8080/cocoon/LearningActivities/
+
+--------------------------------------------------------------------
+
+This will remain a read-only project (with one developer, me) until
+I feel the XML-Schema is more or less stable and well documented. I 
+shall then be very keen on other team members writing XSLT, and 
+source XML that validates to the schema.
+
+In the next stage, we shall design a Relational database back-end, 
+and the XML will be generated on-the-fly.
+
+
+--------------------------------------------------------------------
+
+Hopefully we can then get cracking with the non-geek members of the
+team: graphic designers, instructors, screen-cast performers, parents, 
+students...
+
+*They* are our constituency and we are here to *serve* their needs!
